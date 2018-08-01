@@ -11,13 +11,13 @@ for( var x = 0; x < word.length ; x++){
 
   var letter = word[x];
   if(letter !== " "){
-    if(count[letter] == undefined){
+    if(count[letter] === undefined){
       count[letter] = 1;
     }else{
       count[letter] += 1;
     }
   }
 }
-  console.log(count);
+return count;
 }
 countLetters("lighthouse is in the house");
