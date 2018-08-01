@@ -20,4 +20,4 @@ for( var x = 0; x < word.length ; x++){
 }
 return count;
 }
-countLetters("lighthouse is in the house");
+console.log(countLetters("lighthouse is in the house"));
